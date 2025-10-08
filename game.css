@@ -1,0 +1,43 @@
+#container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+fieldset {
+    background: rgba(96, 183, 255, 0.7);
+    border: 3px solid black;           
+    border-radius: 10px; 
+                 
+}
+
+#layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: rgba(96, 183, 255, 0.7);
+    border: 3px solid black;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+}
+
+.maroon{
+    background-color: maroon; 
+}
+.lightgreen{
+    background-color: lightgreen; 
+}
+
+.magenta{
+    background-color: magenta; 
+}
+body{
+    background-image: url("Galaxy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
